@@ -17,7 +17,9 @@ body {
 .site-header {
 	background-color: grey;
 	color: #fff;
-	padding: 10px 5%;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
 }
 .site-header h1 {
 	margin: 0;
@@ -26,6 +28,7 @@ body {
 }
 .main-nav {
 	float: right;
+	margin-right: 10px;
 }
 
 .main-nav ul {
@@ -38,7 +41,6 @@ body {
 .main-nav ul li {
 	display: inline;
 	padding: 0 10px;
-
 }
 
 .main-nav ul li a {
@@ -50,7 +52,7 @@ body {
 	background: #333;
 	color: #fff;	
 	text-align: center;
-	padding: 40px;
+	padding: 80px 40px 40px 40px;
 }
 
 .billboard h2 {
